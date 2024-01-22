@@ -1,0 +1,19 @@
+.container {
+  overflow: hidden;
+}
+
+.item {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 25px;
+  float: left;
+}
+
+.container > .item:nth-child(odd) {
+  float: right;
+}
+
+.container > .item:nth-child(2n) {
+  clear: both; 
+}

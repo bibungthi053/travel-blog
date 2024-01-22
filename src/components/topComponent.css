@@ -1,0 +1,27 @@
+/* topComponent.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+.container {
+  position: relative;
+  text-align: center;
+  margin: 0 10%; /* 10% margin on both sides */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  position: absolute;
+    left: 25%;
+    top : 20%;
+    color: #fd9595;
+    font-family: 'Dancing Script', cursive;
+    font-size: 62px;
+    white-space: nowrap;
+    padding: 9px;
+
+}
